@@ -1,0 +1,199 @@
+⚠ AI Failure Case #1
+
+Type: Prompt Injection
+AI System: LLM
+Risk Level: HIGH
+
+Scenario:
+A malicious input manipulates an AI agent to execute unintended commands such as revealing sensitive data or performing destructive actions.
+
+Impact:
+Unauthorized actions including data leakage, file deletion, or financial manipulation
+
+Real-World Risk:
+Data breaches, financial loss, and system compromise
+
+Use Case:
+Autonomous AI Systems
+
+----------------------------------------
+
+⚠ AI Failure Case #2
+
+Type: Prompt Injection (Agent-Level Exploit)
+AI System: Agent
+Risk Level: HIGH
+
+Scenario:
+A malicious plugin or external tool injects hidden instructions into the agent workflow, bypassing execution safeguards.
+
+Impact:
+Unauthorized execution of system-level commands
+
+Real-World Risk:
+Remote code execution (RCE) and full system takeover
+
+Use Case:
+Autonomous AI Systems
+
+----------------------------------------
+
+⚠ AI Failure Case #3
+
+Type: Backdoor Attack
+AI System: Agent
+Risk Level: HIGH
+
+Scenario:
+Hidden triggers are injected into the training dataset, causing the model to behave normally until specific inputs activate malicious behavior.
+
+Impact:
+Compromised model integrity and hidden malicious outputs
+
+Real-World Risk:
+Undetected exploitation in production systems and critical infrastructure
+
+Use Case:
+ML Models / Security Systems
+
+----------------------------------------
+
+⚠ AI Failure Case #4
+
+Type: Backdoor Attack
+AI System: LLM
+Risk Level: HIGH
+
+Scenario:
+Poisoned training data introduces hidden behaviors that activate under specific conditions.
+
+Impact:
+Severe failures in high-stakes environments such as healthcare or autonomous driving
+
+Real-World Risk:
+Life-threatening decisions, financial damage, and regulatory violations
+
+Use Case:
+ML Models / Security Systems
+
+----------------------------------------
+
+⚠ AI Failure Case #5
+
+Type: Indirect Prompt Injection
+AI System: LLM
+Risk Level: HIGH
+
+Scenario:
+Malicious instructions embedded in external data sources (web pages, documents) influence agent decision-making.
+
+Impact:
+Unintended execution of attacker-controlled actions
+
+Real-World Risk:
+Silent manipulation of AI systems leading to security breaches
+
+Use Case:
+Autonomous AI Systems
+
+----------------------------------------
+
+⚠ AI Failure Case #6
+
+Type: Prompt Injection / Jailbreaking
+AI System: LLM
+Risk Level: HIGH
+
+Scenario:
+Attackers bypass alignment and safety layers using crafted prompts that override system restrictions.
+
+Impact:
+Generation of harmful or restricted outputs
+
+Real-World Risk:
+Abuse of AI systems for malicious purposes (fraud, misinformation, exploitation)
+
+Use Case:
+AI Assistants / Chatbots
+
+----------------------------------------
+
+⚠ AI Failure Case #7
+
+Type: Prompt Injection (Toolchain Exploit)
+AI System: LLM
+Risk Level: HIGH
+
+Scenario:
+Vulnerabilities in AI development tools allow attackers to manipulate context and trigger unauthorized tool usage.
+
+Impact:
+Exposure of sensitive data and unauthorized operations
+
+Real-World Risk:
+Compromise of developer environments and production pipelines
+
+Use Case:
+AI Assistants / Chatbots
+
+----------------------------------------
+
+⚠ AI Failure Case #8
+
+Type: Indirect Prompt Injection
+AI System: LLM
+Risk Level: HIGH
+
+Scenario:
+Autonomous browser agents process untrusted web content, allowing hidden malicious instructions to alter behavior.
+
+Impact:
+Manipulation of agent actions through external content
+
+Real-World Risk:
+Credential theft, phishing automation, and unauthorized transactions
+
+Use Case:
+Autonomous AI Systems
+
+----------------------------------------
+
+⚠ AI Failure Case #9
+
+Type: Autonomous Risk
+AI System: Agent
+Risk Level: HIGH
+
+Scenario:
+The system iteratively improves itself through automated feedback loops without sufficient human oversight.
+
+Impact:
+Uncontrolled optimization and unpredictable behavior
+
+Real-World Risk:
+Loss of control over system decisions and large-scale unintended consequences
+
+Use Case:
+Autonomous Agents / Robotics
+
+----------------------------------------
+
+⚠ AI Failure Case #10
+
+Type: Hardware / Computation Fault Risk
+AI System: FHE
+Risk Level: HIGH
+
+Scenario:
+High computational overhead in encrypted AI systems increases susceptibility to transient hardware faults.
+
+Impact:
+Silent data corruption during computation
+
+Real-World Risk:
+Incorrect outputs in sensitive systems without detection
+
+Use Case:
+General AI Systems
+
+----------------------------------------
